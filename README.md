@@ -13,3 +13,9 @@ There are a few things you need to consider when building modern applications. S
 - Performance - how to optimize your application for end-users.
 - Scalability - how your application adapts as your team, data, and traffic grow.
 - Developer Experience - your team's experience building and maintaining your application.
+
+### React Core concepts
+
+- Components
+- Props
+- State
