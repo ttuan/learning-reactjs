@@ -1,7 +1,7 @@
 # Learning React
 
-
 ### Building blocks of a web application
+
 There are a few things you need to consider when building modern applications. Such as:
 
 - User Interface - how users will consume and interact with your application.
@@ -19,3 +19,5 @@ There are a few things you need to consider when building modern applications. S
 - Components
 - Props
 - State
+
+### Server and Client Components
