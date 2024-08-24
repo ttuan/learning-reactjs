@@ -1,4 +1,4 @@
-import { useState } from "react";
+import LikeButton from "./like-button";
 
 function Header(props) {
   return <h1>{props.title}</h1>;
@@ -6,12 +6,6 @@ function Header(props) {
 
 export default function HomePage() {
   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
-
-  const [likes, setLikes] = useState(0);
-
-  function handleClick() {
-    setLikes(likes + 1);
-  }
 
   return (
     <div>
@@ -22,7 +16,7 @@ export default function HomePage() {
         ))}
       </ul>
 
-      <button onClick={handleClick}>Like ({likes})</button>
+      <LikeButton />
     </div>
   );
 }
